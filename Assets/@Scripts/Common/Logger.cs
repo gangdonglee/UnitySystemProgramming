@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using UnityEngine;
+ï»¿using System.Diagnostics;
 
-// 1. Ãß°¡ÀûÀÎ Á¤º¸ Ç¥Çö (ex. Å¸ÀÓ½ºÅÆÇÁ)
-// 2. Ãâ½Ã¿ë ºôµå¸¦ À§ÇÑ ·Î±× Á¦°Å
+// 1. ì¶”ê°€ì ì¸ ì •ë³´ í‘œí˜„ (ex. íƒ€ì„ìŠ¤íƒ¬í”„)
+// 2. ì¶œì‹œìš© ë¹Œë“œë¥¼ ìœ„í•œ ë¡œê·¸ ì œê±°
 public static class Logger 
 {
     [Conditional("DEV_VER")]

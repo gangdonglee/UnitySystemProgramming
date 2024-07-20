@@ -24,6 +24,8 @@ public class SceneLoader : SingletonBehaviour<SceneLoader>
     }
     public AsyncOperation LoadSceneAsync(SceneType sceneType)
     {
-        return null;
+        Logger.Log($"{sceneType} scene async loading...");
+        Time.timeScale = 1f;
+        return SceneManager.LoadSceneAsync(sceneType.ToString());
     }
 }

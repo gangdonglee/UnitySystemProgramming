@@ -419,9 +419,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5383076dba860764abf3943acba72c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LogoAnim: {fileID: 0}
+  LogoAnim: {fileID: 8052652812976548374}
   LogoTxt: {fileID: 721255404}
-  Title: {fileID: 3086763582333576077}
+  Title: {fileID: 7777571089751096652}
   LoadingSlider: {fileID: 6838132519394846842}
   LoadingProgressTxt: {fileID: 6838132519011172329}
 --- !u!1 &4247073849004193126

@@ -26,7 +26,6 @@ public class TitleManager : MonoBehaviour
 
     private void Start()
     {
-        int a = 0;
         IEnumerator enumerator = LoadGameCo();
         StartCoroutine(enumerator);
     }

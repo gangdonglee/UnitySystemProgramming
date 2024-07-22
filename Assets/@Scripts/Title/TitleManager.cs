@@ -44,6 +44,7 @@ public class TitleManager : MonoBehaviour
     {
         Logger.Log($"{GetType()}::LoadGameCo");
 
+
         LogoAnim.Play();
         yield return new WaitForSeconds(LogoAnim.clip.length);
 

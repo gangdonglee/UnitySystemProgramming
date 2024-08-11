@@ -45,8 +45,8 @@ public class UserGoodsData : IUserData
 
         try
         {
-            Gem = long.Parse(PlayerPrefs.GetString("Gem"));
-            Gold = long.Parse(PlayerPrefs.GetString("Gold"));
+            PlayerPrefs.SetString("Gem", Gem.ToString());
+            PlayerPrefs.SetString("Gold", Gold.ToString());
             PlayerPrefs.Save();
             result = true;
 

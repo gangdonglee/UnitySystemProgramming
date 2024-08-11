@@ -36,10 +36,8 @@ public class TitleManager : MonoBehaviour
             UserDataManager.Instance.SaveUserData();
         }
 
-        AudioManager.Instance.OnLoadUserData();
-
-        IEnumerator enumerator = LoadGameCo();
-        StartCoroutine(enumerator);
+        UIManager.Instance.EnableGoodsUI(false);
+        StartCoroutine(LoadGameCo());
     }
 
     private IEnumerator LoadGameCo()

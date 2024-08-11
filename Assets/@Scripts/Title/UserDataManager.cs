@@ -59,8 +59,6 @@ public class UserDataManager : SingletonBehaviour<UserDataManager>
     // 설정화면에서 유저데이터 접근 함수
     public T GetUserData<T>() where T : class, IUserData
     {
-
-
         return UserDataList.OfType<T>().FirstOrDefault();
     }
 }

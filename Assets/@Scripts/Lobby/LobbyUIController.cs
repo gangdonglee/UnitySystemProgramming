@@ -6,7 +6,7 @@ public class LobbyUIController : MonoBehaviour
 {
     public void Init()
     {
-
+        UIManager.Instance.EnableGoodsUI(true);
     }
 
     private void Update()
